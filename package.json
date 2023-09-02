@@ -1,0 +1,26 @@
+{
+  "name": "ticketing-system",
+  "version": "1.0.0",
+  "description": "A ticketing system is a tool that helps organizations manage customer requests and issues efficiently. It tracks, prioritizes, and assigns tasks, ensuring timely resolution. Users submit tickets, and the system streamlines communication and tracks progress until the problem is resolved.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "ticketing",
+    "system",
+    "ticket",
+    "request",
+    "system"
+  ],
+  "author": "Byte Builders",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
+  }
+}
